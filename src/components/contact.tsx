@@ -53,7 +53,7 @@ export default function ContactForm() {
                 name="name"
                 type="text" 
                 required
-                placeholder="Tridip Kalita" 
+                placeholder="your name" 
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" 
               />
             </div>
@@ -63,7 +63,7 @@ export default function ContactForm() {
                 name="email"
                 type="email" 
                 required
-                placeholder="name@gym.com" 
+                placeholder="your email" 
                 className="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition" 
               />
             </div>
@@ -75,7 +75,7 @@ export default function ContactForm() {
               name="message"
               rows={5} 
               required
-              placeholder="Tell us about your gym..." 
+              placeholder="Tell us the purpose of your inquiry..." 
               className="w-full px-4 py-3 rounded-xl border border-slate-200 text-slate-900 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none transition"
             ></textarea>
           </div>
