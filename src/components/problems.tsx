@@ -38,7 +38,7 @@ export default function ProblemSection() {
   return (
     <section className="bg-slate-50 py-24 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <h3 className="text-3xl md:text-4xl font-bold text-slate-900 tracking-tight">
             Running a gym shouldn't feel like a heavy lift.
           </h3>
@@ -47,7 +47,7 @@ export default function ProblemSection() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-3 gap-15">
           {problems.map((item, index) => (
             <div key={index} className="flex flex-col items-start space-y-4 bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
               <div className="bg-red-50 p-3 rounded-lg text-red-600">

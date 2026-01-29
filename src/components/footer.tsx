@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="py-20 border-t border-slate-100 bg-white">
+    <footer className="pt-0 pb-20 border-t border-slate-100 bg-white">
       <div className="max-w-7xl mx-auto px-6 text-center">
         <div className="mb-8">
           <h3 className="text-xl font-bold text-slate-900 tracking-tighter">ZIDDFIT</h3>

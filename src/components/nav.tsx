@@ -17,12 +17,12 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="hidden md:flex gap-8 text-sm font-semibold uppercase tracking-widest text-slate-500">
+        <div className="hidden md:flex gap-10 text-sm font-semibold uppercase tracking-widest text-slate-500">
           {/* Update this to a Link */}
           <Link href="/mission" className="hover:text-blue-600 transition">
             The Mission
           </Link>
-          <span className="cursor-default hover:text-blue-600 transition">Contact</span>
+          <Link href="/contact" className="cursor-default hover:text-blue-600 transition">Contact</Link>
         </div>
       </div>
     </nav>

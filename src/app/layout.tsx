@@ -1,15 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+// Configure Poppins
+const poppins = Poppins({
+  variable: "--font-poppins", // This creates the CSS variable
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
@@ -18,7 +15,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/Gemini_Generated_Image_a9vtra9vtra9vtra-removebg-preview.png', 
   },
-}
+};
 
 export default function RootLayout({
   children,
@@ -27,9 +24,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      {/* Apply the variable to the body class */}
+      <body className={`${poppins.variable} antialiased`}>
         {children}
       </body>
     </html>

@@ -8,7 +8,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  
+  /* FIX: Point the Tailwind sans font to your Poppins variable */
+  --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
 }
 
@@ -19,8 +21,14 @@
   }
 }
 
+/* Global application */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* Use the Tailwind variable defined above */
+  font-family: var(--font-poppins), sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), sans-serif;
 }

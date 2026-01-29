@@ -5,7 +5,7 @@ import Footer from '../components/footer';
 
 export default function LandingPage() {
   return (
-    <main className="min-h-screen bg-white text-slate-900">
+    <main className="min-h-screen bg-white flex flex-col space-y-2">
       <Navbar />
       <Hero />
       <ProblemSection />
