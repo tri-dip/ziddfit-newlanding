@@ -10,7 +10,7 @@ export default function Hero() {
       </h1>
 
       {/* Description Paragraph - Increased max-width and leading for desktop spread */}
-      <p className="text-lg md:text-2xl text-slate-600 mb-12 md:mb-20 leading-relaxed md:leading-[1.6] max-w-5xl mx-auto tracking-wide">
+      <p className="text-lg md:text-2xl text-slate-650 mb-12 md:mb-20 leading-relaxed md:leading-[1.6] max-w-5xl mx-auto tracking-wide">
         Running a gym is hard work; managing it shouldn't be. ZiddFit is a complete gym management ecosystem built to handle the heavy lifting of your business. From automating your monthly billing to tracking every member's personal bests, we provide the tools you need to build a stronger community.
       </p>
 
