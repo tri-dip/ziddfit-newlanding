@@ -1,4 +1,4 @@
-// src/components/Footer.tsx
+
 import React from 'react';
 
 export default function Footer() {
@@ -10,11 +10,6 @@ export default function Footer() {
           <p className="text-slate-500 text-sm mt-1">Determination in every rep.</p>
         </div>
         
-        {/* <div className="flex justify-center gap-8 text-sm font-medium text-slate-400 mb-10">
-          <span className="hover:text-blue-600 cursor-default transition">The Mission</span>
-          <span className="hover:text-blue-600 cursor-default transition">Coming Soon</span>
-          <span className="hover:text-blue-600 cursor-default transition">Contact</span>
-        </div> */}
 
         <p className="text-slate-300 text-xs uppercase tracking-widest">
           © {new Date().getFullYear()} ZiddFit. All rights reserved.
