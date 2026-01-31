@@ -90,12 +90,12 @@ export default function ContactForm() {
 
           {status === "success" && (
             <p className="text-center font-bold text-green-600 animate-bounce">
-              ✓ Message stored in ZiddFit database!
+               Message send to ZiddFit!
             </p>
           )}
           {status === "error" && (
             <p className="text-center font-bold text-red-600">
-              ✕ Failed to save. Please check your connection.
+               Failed to send. Please check your connection.
             </p>
           )}
         </form>
